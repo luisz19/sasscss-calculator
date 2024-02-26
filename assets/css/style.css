@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+}
+
+main {
+  background-color: hsl(222, 26%, 31%);
+  height: 100vh;
+  padding: 70px 0px 0px;
+}
+main .visor {
+  display: flex;
+  justify-content: center;
+}
+main .visor input {
+  height: 90px;
+  text-align: right;
+  outline: none;
+  background-color: hsl(224, 36%, 15%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 32px;
+  padding: 0px 20px;
+}
+main section {
+  background-color: hsl(223, 31%, 20%);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+main section table .bigs {
+  display: flex;
+  justify-content: space-between;
+}
+main section table tr {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+main section table tr .btn {
+  width: 65px;
+  height: 70px;
+  font-size: 32px;
+  text-align: center;
+  margin: 0px 8px;
+  background-color: hsl(34, 23%, 94%);
+  border-radius: 5px;
+  border: none;
+  color: hsla(196, 25%, 15%, 0.856);
+  border-bottom: 5px solid hsl(33, 21%, 69%);
+  cursor: pointer;
+}
+main section table tr .btn-big {
+  width: 150px;
+  height: 70px;
+  font-size: 32px;
+  border-radius: 5px;
+  border: none;
+  color: hsl(34, 23%, 94%);
+  text-transform: uppercase;
+  border-bottom: 5px solid hsl(33, 21%, 69%);
+  cursor: pointer;
+}
+main section table tr .btn-red {
+  background-color: hsl(6, 63%, 50%);
+  border-bottom: 5px solid hsl(6, 70%, 34%);
+}
+main section table tr .btn-purple {
+  background-color: hsl(225, 21%, 49%);
+  border-bottom: 5px solid hsl(224, 28%, 35%);
+  color: hsl(34, 23%, 94%);
+}
+
+/*# sourceMappingURL=style.css.map */

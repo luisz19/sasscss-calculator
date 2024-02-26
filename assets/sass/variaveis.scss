@@ -1,0 +1,88 @@
+// #### Text
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+$Light-yellow-txt: hsl(52, 100%, 62%);
+$Very-dark-txt: hsl(198, 20%, 13%);
+$size-numbers: 32px;
+$font-family: "League Spartan", sans-serif;
+$dark-txt: hsla(196, 25%, 15%, 0.856);
+//     font-optical-sizing: auto;
+//     font-weight: 700;
+//     font-style: normal;
+//   }
+// ### Font
+
+// - Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
+// - Weights: 700
+
+
+
+
+
+
+
+// #### Backgrounds
+$blue-body: hsl(221, 28%, 20%);
+$Verydark-blue-main: hsl(222, 26%, 31%);
+$Verydark-blue-numbers: hsl(223, 31%, 20%);
+$Verydark-blue-screen: hsl(224, 36%, 15%);
+
+// #### Keys
+
+$btn-dark-blue: hsl(225, 21%, 49%);
+$btn-dark-blue-shadow: hsl(224, 28%, 35%);
+
+$Red-btn: hsl(6, 63%, 50%);
+$red-shadow: hsl(6, 70%, 34%);
+
+$Light-grayish-orange: hsl(34, 23%, 94%);
+$Grayish-orange: hsl(33, 21%, 69%);
+
+
+// #### Text
+
+// - Very dark grayish blue: hsl(221, 14%, 31%)
+// - White: hsl(0, 0%, 100%)
+
+// ### Theme 2
+
+// #### Backgrounds
+
+// - Light gray (main background): hsl(0, 0%, 90%)
+// - Grayish red (toggle background, keypad background): hsl(0, 5%, 81%)
+// - Very light gray (screen background): hsl(0, 0%, 93%)
+
+// #### Keys
+
+// - Dark moderate cyan (key background): hsl(185, 42%, 37%)
+// - Very dark cyan (key shadow): hsl(185, 58%, 25%)
+
+// - Orange (key background, toggle): hsl(25, 98%, 40%)
+// - Dark orange (key shadow): hsl(25, 99%, 27%)
+
+// - Light grayish yellow (key background): hsl(45, 7%, 89%)
+// - Dark grayish orange (key shadow): hsl(35, 11%, 61%)
+
+// #### Text
+
+// - Very dark grayish yellow: hsl(60, 10%, 19%)
+// - White (text): hsl(0, 0%, 100%)
+
+// ### Theme 3
+
+// #### Backgrounds
+
+// - Very dark violet (main background): hsl(268, 75%, 9%)
+// - Very dark violet (toggle background, keypad background, screen background): hsl(268, 71%, 12%)
+
+// #### Keys
+
+// - Dark violet (key background): hsl(281, 89%, 26%)
+// - Vivid magenta (key shadow): hsl(285, 91%, 52%)
+
+// - Pure cyan (key background, toggle): hsl(176, 100%, 44%)
+// - Soft cyan (key shadow): hsl(177, 92%, 70%)
+
+// - Very dark violet (key background): hsl(268, 47%, 21%)
+// - Dark magenta (key shadow): hsl(290, 70%, 36%)
+

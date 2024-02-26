@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+@import "./variaveis.scss";
+
+//predefinition
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: $font-family;
+}
+
+body{
+     overflow: hidden;
+     width: 100vw;
+    
+}
+
+main {
+    background-color: $Verydark-blue-main;
+    height: 100vh;
+    padding: 70px 0px 0px;
+    
+
+    .visor{
+        display: flex;
+        justify-content: center;
+        
+        input{
+            height: 90px;
+           text-align: right;
+            outline: none;
+            background-color: $Verydark-blue-screen;
+            border: none;
+            border-radius: 8px;
+            
+            color: white;
+            font-size: $size-numbers;
+            padding: 0px 20px;
+        }
+        
+    }
+
+    section{
+        background-color: $Verydark-blue-numbers;
+        // width: calc(100% - 30px);
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        
+       
+
+        table {
+
+            .bigs{
+                display: flex;
+                justify-content: space-between;
+        
+            
+            }
+            tr {
+              
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                // margin:20px 5px 0px;
+
+                .btn{
+                    width: 65px;
+                    height: 70px;
+                    font-size: $size-numbers;
+                    text-align: center;
+                    margin: 0px 8px;
+                    background-color: $Light-grayish-orange;
+                    border-radius: 5px;
+                    border: none;
+                    color: $dark-txt;
+                    border-bottom: 5px solid $Grayish-orange;
+                    cursor: pointer;
+                    
+
+                    
+                  }
+                  .btn-big {
+                    width: 150px;
+                    height: 70px;
+                    font-size: $size-numbers;
+                    // margin: 0px 9px 20px;
+                    border-radius: 5px;
+                    border: none;
+                    color: $Light-grayish-orange;
+                    text-transform: uppercase;
+                    border-bottom: 5px solid $Grayish-orange;
+                    cursor: pointer;
+                      
+                  }
+
+                  .btn-red {
+                    background-color: $Red-btn;
+                    border-bottom: 5px solid $red-shadow;
+                
+                  }
+
+                  .btn-purple{
+                    background-color: $btn-dark-blue;
+                    border-bottom: 5px solid $btn-dark-blue-shadow;
+                    color: $Light-grayish-orange;
+                  }
+            }
+            
+
+            
+        }
+    }
+
+   
+}
